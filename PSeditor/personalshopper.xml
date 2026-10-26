@@ -1,0 +1,34 @@
+<panel id="inicio" ref="base">
+	<adorno url="ps/adorno.png" x="-50" y="-100" sx="1" sy="1" />
+	<opcion url="ps/opcion.png" ref="otro" x="-50" y="-50" sx="1" sy="1" />
+</panel>
+
+<panel id="base">
+	<fondo url="ps/fondo.png" x="0" y="-100" sx="0.5" sy="0.5" />
+	<back url="ps/back.png" x="-50" y="-200" sx="1" sy="1" id="1" />
+	<next url="ps/next.png" x="50" y="-200" sx="1" sy="1" id="1" />
+	<home url="ps/home.png" x="0" y="-200" sx="1" sy="1" />
+
+	<adorno url="ps/adorno.png" x="-50" y="-150" sx="1" sy="1" />
+	<opcion url="ps/opcion.png" x="0" y="-150" sx="1" sy="1" ref="dos" />
+
+</panel>
+
+
+
+<panel id="otro" ref="base">
+	<adorno url="ps/adorno.png" x="-50" y="-100" sx="1" sy="1" />
+	<opcion url="ps/opcion.png" ref="dos" x="0" y="-50" sx="1" sy="1" />
+	<info target="ViewProduct" product="Pruebas" />
+</panel>
+
+<panel id="dos" ref="base">
+	<adorno url="ps/adorno.png" x="-50" y="-100" sx="1" sy="1" />
+	<opcion url="ps/opcion.png" ref="otro" x="50" y="-50" sx="1" sy="1" />
+	<info target="ViewCategory" level1="GIRL" level2="SHOES" level3="MIDDLE HEEL" />
+	<fin x="0" y="-50" sx="1" sy="1">
+		<modelo txt="zapatoModelo" />
+		<talla txt="42" />
+		<color txt="amarillo" />
+	</fin>
+</panel>

@@ -1,0 +1,36 @@
+# Folders excluidos de esta publicación (documentación del cliente, assets de marca y duplicados)
+docs/
+installed/
+material/
+PS_Diana/
+test/
+Copia de dev/
+simpleWeb.rar
+
+# Duplicados internos
+dev/Copia de desktop SMALL.fla
+dev/coolway_big_raton.rar
+
+# Ejecutables con credenciales en claro compiladas (URL + KEY del web service del cliente)
+dev/coolway.exe
+dev/coolway_big.exe
+dev/coolway_gpu.exe
+dev/coolway_raton.exe
+dev/coolway_big_raton.exe
+PSeditor/PSeditor.exe
+entregas/pantalla/coolway.exe
+entregas/pantalla/coolway_gpu.exe
+entregas/pantalla/coolway_raton.exe
+entregas/pantalla/PSeditor.exe
+
+# Imágenes/medios del cliente (fotos de galería, catálogo y campaña)
+dev/fotos/
+dev/ps/TREE/
+entregas/pantalla/fotos/
+entregas/pantalla/microsite/
+entregas/pantalla/ps/TREE/
+
+# Archivos basura de sistema
+Thumbs.db
+._*
+.DS_Store
